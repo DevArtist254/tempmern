@@ -1,25 +1,29 @@
 {
-  "name": "tempmern",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DevArtist254/tempmern.git"
-  },
-  "keywords": [
-    "tempmern"
-  ],
-  "author": "devartist404",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DevArtist254/tempmern/issues"
-  },
-  "homepage": "https://github.com/DevArtist254/tempmern#readme",
-  "dependencies": {
-    "express": "^4.18.1"
-  }
+ "name": "tempmern",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "start": "node index.js",
+  "build": "cd client && npm install && npm run build"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/DevArtist254/tempmern.git"
+ },
+ "keywords": [
+  "tempmern"
+ ],
+ "author": "devartist404",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/DevArtist254/tempmern/issues"
+ },
+ "homepage": "https://github.com/DevArtist254/tempmern#readme",
+ "dependencies": {
+  "express": "^4.18.1"
+ },
+ "engines": {
+  "node": "18.8.0"
+ }
 }
